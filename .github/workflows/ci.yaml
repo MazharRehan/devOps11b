@@ -17,4 +17,5 @@ jobs:
       - name: Repository Basic Info
         run: | 
           echo "Repository Name: ${{github.repository}}"
-          echo "Repository Name: ${{github.owner}}"
+          echo "Repository Name: ${{github.repository_owner}}"
+          echo "Repository Name: ${{github.event_name}}"
